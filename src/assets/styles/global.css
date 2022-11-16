@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+.autolink-header {
+  display: inline-block;
+  margin-left: 0.3em;
+}
+.autolink-header:hover {
+  background: inherit;
+  color: #da0060 !important;
+}
+#carbonads {
+  display: flex;
+  max-width: 346px;
+  background-color: #fafafa;
+  box-shadow: 0 1px 4px 1px rgb(0 0 0 / 10%);
+  z-index: 100;
+  width: 100%;
+  height: 116px;
+  padding: 0.5rem;
+  margin: 0 auto;
+  position: relative;
+}
+.carbon-wrap {
+  display: flex;
+  background: #f9f9f9;
+  border: 1px solid #f3f3f3;
+}
+.carbon-text {
+  font-size: 12px;
+  padding: 10px;
+  line-height: 1.5;
+  text-align: left;
+}
+.carbon-poweredby {
+  bottom: 0.5rem;
+  right: 0.5rem;
+  position: absolute;
+  padding: 6px 8px;
+  background: #f1f1f2;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 1;
+  border-top-left-radius: 3px;
+}
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #797379;
+}
+.token.punctuation {
+  color: #b9b5b8;
+}
+.namespace {
+  opacity: 0.7;
+}
+.token.null,
+.token.operator,
+.token.boolean,
+.token.number {
+  color: #fd8b19;
+}
+.token.property {
+  color: #fdcc59;
+}
+.token.tag {
+  color: #1290bf;
+}
+.token.string {
+  color: #149b93;
+}
+.token.selector {
+  color: #c85e7c;
+}
+.token.attr-name {
+  color: #fd8b19;
+}
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  color: #149b93;
+}
+.token.attr-value,
+.token.keyword,
+.token.control,
+.token.directive,
+.token.unit {
+  color: #8fc13e;
+}
+
+.token.statement,
+.token.regex,
+.token.atrule {
+  color: #149b93;
+}
+.token.placeholder,
+.token.variable {
+  color: #1290bf;
+}
+.token.important {
+  color: #dd464c;
+  font-weight: bold;
+}
+.token.entity {
+  cursor: help;
+}
+pre > code.highlight {
+  outline: 0.4em solid red;
+  outline-offset: 0.4em;
+}
